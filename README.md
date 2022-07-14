@@ -9,11 +9,11 @@ products:
 description: "Code which demonstrates how to set up and operationalize an MLOps flow leveraging Azure Machine Learning and Azure DevOps."
 ---
 
-# MLOps with Azure ML
+# DeepLearning Models for (MNIST) Image Classification Problems
 
-CI: [![Build Status](https://aidemos.visualstudio.com/MLOps/_apis/build/status/Model-Train-Register-CI?branchName=master)](https://aidemos.visualstudio.com/MLOps/_build/latest?definitionId=160&branchName=master)
+CI: [![Build Status](https://aidemos.visualstudio.com/MLOps/_apis/build/status/Model-Train-Register-CI?branchName=main)](https://aidemos.visualstudio.com/MLOps/_build/latest?definitionId=160&branchName=main)
 
-CD: [![Build Status](https://aidemos.visualstudio.com/MLOps/_apis/build/status/microsoft.MLOpsPython-CD?branchName=master)](https://aidemos.visualstudio.com/MLOps/_build/latest?definitionId=161&branchName=master)
+CD: [![Build Status](https://aidemos.visualstudio.com/MLOps/_apis/build/status/microsoft.MLOpsPython-CD?branchName=main)](https://aidemos.visualstudio.com/MLOps/_build/latest?definitionId=161&branchName=main)
 
 MLOps will help you to understand how to build a Continuous Integration and Continuous Delivery pipeline for an ML/AI project. We will be using the Azure DevOps Project for build and release/deployment pipelines along with Azure ML services for model retraining pipeline, model management and operationalization.
 
@@ -50,10 +50,7 @@ You can find the details of the code and scripts in the repository [here](/docs/
 - [Azure ML Python SDK Quickstart](https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-create-workspace-with-python)
 - [Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/?view=vsts)
 
-## Contributing
+## Source
 
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <https://cla.microsoft.com.>
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project is adopted from Microsoft official MLOps Template. Please visit the below website for more details about the source template
+https://github.com/microsoft/MLOpsPython
